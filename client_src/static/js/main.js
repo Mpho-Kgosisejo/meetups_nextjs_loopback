@@ -1,2 +1,2 @@
 
-console.log("Hello NextJS")
+// console.log("Hello NextJS")

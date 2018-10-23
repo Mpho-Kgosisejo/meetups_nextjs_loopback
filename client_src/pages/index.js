@@ -13,9 +13,9 @@ const Index = (props) => (
             <Header.Content>Meetups</Header.Content>
         </Header>
 
-        {/* Data: <pre>{JSON.stringify(props.meetups, "\t", 2)}</pre> */}
-
         <Divider />
+
+        {/* Data: <pre>{JSON.stringify(props.meetups, "\t", 2)}</pre> */}
 
         <Meetups {...props} />
 
