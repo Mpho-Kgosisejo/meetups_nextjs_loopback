@@ -1,20 +1,10 @@
-import React, {Component} from "react"
 import Router from "next/router"
 
 import {getMeetup} from "../lib/data"
 import Layout from "../components/Layout";
 import { Card, Header, Icon, Divider} from "semantic-ui-react";
 
-export default class Meetuo extends Component {
-    // state = {
-    //     meetupId: null
-    // }
-
-    // componentDidMount(){
-    //     console.log("Here: ", this.props.url.query)
-    //     this.setState({meetupId: this.props.url.query.id})
-    // }
-
+export default class Meetuo extends React.Component {
     static async getInitialProps(props){
 
         if (props && props.query.id){
